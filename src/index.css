@@ -20,6 +20,7 @@
 
 body {
   width: 100%;
+  overflow-x: hidden;
 }
 
 ul {
@@ -53,6 +54,7 @@ a {
 }
 
 ._container {
+  width: 100%;
   background-color: var(--grey-hue);
 }
 

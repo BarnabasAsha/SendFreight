@@ -7,6 +7,7 @@ import { ReactComponent as Ship } from '../../../assets/ship.svg'
 import { ReactComponent as Truck } from '../../../assets/truck.svg'
 import { ReactComponent as Location } from '../../../assets/location.svg'
 import { ReactComponent as Info } from '../../../assets/info.svg'
+import { ReactComponent as Arrow } from "../../../assets/arrowLeft.svg"
 
 // components
 import Text from '../../atoms/Text'
@@ -68,8 +69,8 @@ const Booking = () => {
     
     return (
         <div className="_wrapper">
-            <div>
-
+            <div className="_wrapper-icon">
+                <Arrow />
             </div>
             <section>
                 <header>
