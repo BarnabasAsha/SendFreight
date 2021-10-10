@@ -1,0 +1,13 @@
+._mobileNav {
+    width: 100%;
+    padding: 1rem;
+    background: var(--primary-hue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+._mobileNav button {
+    margin: .5rem 0;
+}

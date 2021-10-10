@@ -1,0 +1,36 @@
+._input {
+    width: 95%;
+    height: 45px;
+    max-width: 370px;
+    border: none;
+    background: var(--input-hue);
+    display: flex;
+    align-items: center;
+    padding: 0rem .8rem;
+    font-size: .8rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+}
+
+._input span {
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+._input span svg {
+    width: 15px;
+    height: auto;
+    margin-top: 5px;
+    margin-right: 3px;
+}
+
+
+._input input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: transparent;
+    outline: none;
+    padding: 0 .3rem;
+}

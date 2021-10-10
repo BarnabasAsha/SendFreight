@@ -1,0 +1,33 @@
+._detailsTab {
+    width: 300px;
+    height: 40px;
+    background-color: var(--input-hue);
+    color: var(--inactive-hue);
+    padding: 2px;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+}
+
+._detailsTab button {
+    font-size: 0.8rem;
+    width: 50%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color ease-out .4s;
+    padding: .3rem;
+}
+
+._detailsTab button.active {
+    background: var(--white-hue);
+    color: var(--primary-hue);
+}
+
+@media screen and (max-width: 650px) {
+    ._detailsTab {
+        width: 230px
+    }
+  }

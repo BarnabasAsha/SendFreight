@@ -1,0 +1,12 @@
+._select {
+    width: 95%;
+    height: 45px;
+    max-width: 320px;
+    border: none;
+    background: var(--input-hue);
+    padding: 0rem .8rem;
+    font-size: .8rem;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 2rem;
+}

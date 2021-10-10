@@ -1,0 +1,44 @@
+.service-input {
+    opacity: 0;
+}
+
+._serviceCard {
+    position: relative;
+    background-color: var(--white-hue);
+    color: var(--inactive-hue);
+    border: 1px solid var(--inactive-hue);
+    width: auto;
+    height: 90px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    font-size: .9rem;
+    overflow: hidden;
+    cursor: pointer;
+    transition: background-color ease-out .5s;
+}
+
+._serviceCard .text {
+    width: 60%;
+}
+
+._serviceCard span svg {
+    position: absolute;
+    right: -20px;
+    bottom: -30px;
+    width: 80px;
+    fill: var(--inactive-hue);
+    transition: fill ease-out .4s;
+}
+
+.service-input:checked + ._serviceCard {
+    background-color: var(--primary-hue);
+    color: var(--white-hue);
+    border: none;
+}
+
+.service-input:checked + ._serviceCard span svg {
+    fill: var(--white-hue);
+}

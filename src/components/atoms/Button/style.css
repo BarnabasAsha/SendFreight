@@ -1,0 +1,19 @@
+._button {
+    width: 150px;
+    height: 40px;
+    color: var(--white-hue);
+    border-radius: 5px;
+    margin: 0 .5rem;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+._button.solid {
+    background: var(--green-hue);
+    border: none;
+}
+
+._button.outline {
+    background: transparent;
+    border: 3px solid var(--primary-hue-light);
+}

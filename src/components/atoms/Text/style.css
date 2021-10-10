@@ -1,0 +1,29 @@
+._text {
+    font-weight: 400;
+    color: var(--inactive-hue);
+}
+
+._text.large {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+
+._text.normal {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+._text.small {
+    font-size: .8rem;
+    line-height: 1.4rem;
+}
+
+._text.bold {
+    font-weight: 500;
+    color: #000;
+}
+
+._text.inline {
+    display: inline;
+}
+

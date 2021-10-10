@@ -1,0 +1,14 @@
+._additionalService {
+    width: 50%;
+}
+
+._additionalService-info {
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 650px ) {
+    ._additionalService {
+        width: 100%;
+    }
+}

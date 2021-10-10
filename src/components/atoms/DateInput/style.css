@@ -1,0 +1,58 @@
+._dateInput {
+    position: relative;
+    width: 95%;
+    height: 45px;
+    max-width: 320px;
+    border: none;
+    background: var(--input-hue);
+    display: flex;
+    align-items: center;
+    padding: 0rem .8rem;
+    font-size: .8rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+}
+
+._dateInput label {
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+._dateInput label svg {
+    width: 15px;
+    height: auto;
+    margin-right: 3px;    
+}
+
+._dateInput .oldInput {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+._dateInput .oldInput::-webkit-calendar-picker-indicator {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+._dateInput .newInput {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: transparent;
+    outline: none;
+    padding: 0 .3rem;
+}
+

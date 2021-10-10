@@ -1,0 +1,33 @@
+._flex {
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+._flex.gutter {
+    margin-bottom: 2rem;
+}
+
+._flex.nowrap {
+    flex-wrap: nowrap;
+}
+
+._flex.items-center {
+    align-items: center;
+}
+
+._flex.items-start {
+    align-items: flex-start;
+}
+
+._flex.content-between {
+    justify-content: space-between;
+}
+
+._flex.content-center {
+    justify-content: space-between;
+}
+
+._flex.content-start {
+    justify-content: flex-start;
+}
