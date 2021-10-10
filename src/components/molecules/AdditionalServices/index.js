@@ -8,7 +8,7 @@ const AdditionalServices = ({ title, subtitle, name }) => (
         <Flex nowrap="nowrap">
         <ToggleSwitch name={name} aria-label={title} value={title} />
         <div className="_additionalService-info">
-           <h2 className="_heading-2x no-margin">{title}</h2>
+           <Text type="normal" weight="bold">{title}</Text>
            <Text type="small">{subtitle}</Text>
         </div>
     </Flex>
